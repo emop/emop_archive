@@ -1,0 +1,84 @@
+-
+ name: 预约服务
+ type: click
+ key_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/appoint/"
+ show_resource: 
+ view_order: 1
+ child_menu:
+ 	-
+	 	name: 门店地址
+	 	type: click
+	 	key_url:
+	 	show_resoure: 门店列表
+	-
+	 	name: 服务项目
+	 	type: click
+	 	key_url:
+	 	show_resoure: 服务项目
+	-
+	 	name: 造型师秀
+	 	type: click
+	 	key_url:
+	 	show_resoure: 造型师秀
+	-
+	 	name: 潮流造型
+	 	type: click
+	 	key_url:
+	 	show_resoure: 潮流造型
+
+-
+ name: 会员中心
+ type: click
+ key_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/price_list/"
+ show_resource: 
+ view_order: 2
+ child_menu:
+ 	-
+	 	name: 预约服务
+	 	type: click
+	 	key_url:
+	 	show_resoure: 预约服务
+	-
+	 	name: 我的预约
+	 	type: click
+	 	key_url:
+	 	show_resoure: 我的预约
+	-
+	 	name: 我型我秀
+	 	type: click
+	 	key_url:
+	 	show_resoure: 我型我秀
+	-
+	 	name: 微信会员卡
+	 	type: click
+	 	key_url:
+	 	show_resoure: 微信会员卡
+ 	
+-
+ name: 会员卡
+ type: click
+ key_url: http://m.mty5.com/appface/u/card/receive_card?shop_id=
+ view_order: 3
+ show_resource: 
+ child_menu:
+ 	-
+	 	name: 查看预约
+	 	type: click
+	 	key_url:
+	 	show_resoure: 查看预约
+	-
+	 	name: 作品管理
+	 	type: click
+	 	key_url:
+	 	show_resoure: 作品管理
+	-
+	 	name: 设计师审核
+	 	type: click
+	 	key_url:
+	 	show_resoure: 设计师审核
+	-
+	 	name: 潮流造型审核
+	 	type: click
+	 	key_url:
+	 	show_resoure: 潮流造型审核
+	

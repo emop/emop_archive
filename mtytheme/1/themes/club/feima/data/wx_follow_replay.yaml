@@ -1,0 +1,35 @@
+-
+	menu_type: follow
+	reply_type: pic_text
+	description: 欢迎关注
+	cover: http://mobile01.b0.upaiyun.com/emop_sell/03_27/wxmenu_4001136_114217.png
+	link: http://www.mty5.com/m/{$app_shop_id}
+
+-
+	menu_type: follow
+	reply_type: pic_text
+	description: 门店列表
+	cover: http://mobile01.b0.upaiyun.com/emop_sell/03_27/wxmenu_4001136_115650.png
+	link: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/store/{$app_shop_id}"
+
+-
+	menu_type: follow
+	reply_type: pic_text
+	description: 美发设计师
+	cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_105419.png
+	link: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/emoplyee_list/{$app_shop_id}"
+	
+-
+	menu_type: follow
+	reply_type: pic_text
+	description: 服务价格
+	cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_105442.png
+	link: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/price_list/{$app_shop_id}"
+	
+-
+	menu_type: follow
+	reply_type: pic_text
+	description: 潮流造型
+	cover: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_154034.png
+	link: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/trend_show/{$app_shop_id}"
+	

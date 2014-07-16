@@ -1,0 +1,18 @@
+cover:
+	brand_logo: http://mobile01.b0.upaiyun.com/emop_sell_jd/card/brand_logo/03_14/1118_115821.jpeg
+	card_url: /static/img/card_bk_6.png
+	user_info: {"user_name":"false","user_phone":"false"}
+
+page_setting:
+	-
+	 group_type: A
+	 content_type: TEXT_CLICK
+	 content: 门店地址
+	 click_url: "{$emopcrm_url}user/store/"
+	
+	-
+	 group_type: B
+	 content_type: TEXT
+	 content: 电话：0751-80808212
+	 click_url: 
+	

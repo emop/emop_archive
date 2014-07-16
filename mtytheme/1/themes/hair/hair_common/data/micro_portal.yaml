@@ -1,0 +1,65 @@
+portal_template: simple
+portal_info:	
+	simple:
+		-
+			bar_type: module_focus
+			focus_info:
+				-
+					position: 0
+					focus_url: http://mobile01.b0.upaiyun.com/emop_sell/03_27/wxmenu_4001136_114217.png
+					click_url: http://m.mty5.com/m/{$app_shop_id}
+				
+		-
+			bar_type: module_s4
+			title: 预约记录
+			click_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/my_appoint/{$app_shop_id}"
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_153742.png
+			view_order: 0
+		-
+			bar_type: module_s4
+			title: 预约服务
+			click_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/appoint/{$app_shop_id}"
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_153751.png
+			view_order: 1
+		-
+			bar_type: module_s4
+			title: 我型我秀
+			click_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/my_show"
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_154041.png
+			view_order: 2
+		-
+			bar_type: module_s4
+			title: 服务价格
+			click_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/price_list/{$app_shop_id}"
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_153944.png
+			view_order: 3
+		-
+			bar_type: module_s4
+			title: 会员卡
+			click_url: http://m.mty5.com/appface/u/card/receive_card?shop_id={$app_shop_id}
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_155642.png
+			view_order: 4
+		-
+			bar_type: module_s4
+			title: 我的造型师
+			click_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/emoplyee_list/{$app_shop_id}"
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_154317.png
+			view_order: 5
+		-
+			bar_type: module_s4
+			title: 潮流造型
+			click_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/trend_show/{$app_shop_id}"
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_154034.png
+			view_order: 6
+		-
+			bar_type: module_s4
+			title: 个人资料
+			click_url: http://m.mty5.com/member/info
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_154022.png
+			view_order: 7
+		-
+			bar_type: module_s4
+			title: 好友邀请
+			click_url: http://m.mty5.com/appface/u/invite/view_invite?shop_id={$app_shop_id}
+			pic_url: http://mobile01.b0.upaiyun.com/emop_sell/03_21/microportal_154047.png
+			view_order: 8

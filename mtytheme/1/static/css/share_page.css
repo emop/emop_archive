@@ -1,0 +1,19 @@
+#mess_share button {width: 100%;text-align: center;border-radius: 3px;}
+#mess_share img {width: 22px;height: 22px;vertical-align: top;border: 0;}
+#mess_share {margin: 15px 10px;height:50px;}
+#share_1 {float: left;width: 49%;}
+#share_2 {float: right;width: 49%;}
+.button1{font-size:18px;padding:10px 0;border:1px solid #5a5a59;color:#ffffff;background-color:#0e9e1a;background-image:linear-gradient(to top, #02a038, #02a138 18%, #02c244);background-image:-webkit-gradient(linear, 0 100%, 0 0, from(#02a038),color-stop(0.2,#02a138),to(#02c244));box-shadow: 0 1px 1px rgba(7, 56, 28, 0.61), 0 1px 1px rgba(255,255,255,0.51) inset;text-shadow: 0.5px 0.5px 1px rgba(15,114,57,0.75);}
+.button1:active{background-color: #007e2b;background-image: linear-gradient(to top, #016423, #007629 24%, #00a137);background-image:-webkit-gradient(linear, 0 100%, 0 0, from(#016423),color-stop(0.2,#007629),to(#00a137));}
+.button2{font-size:16px;padding:8px 0;border:1px solid #adadab;color:#000000;background-color: #e8e8e8;background-image:linear-gradient(to top, #dbdbdb, #f4f4f4);background-image:-webkit-gradient(linear, 0 100%, 0 0, from(#dbdbdb),to(#f4f4f4));box-shadow: 0 1px 1px rgba(0,0,0,0.45), inset 0 1px 1px #efefef; text-shadow: 0.5px 0.5px 1px #ffffff;}
+.button2:active{background-color: #dedede;background-image: linear-gradient(to top, #cacaca, #e0e0e0);background-image:-webkit-gradient(linear, 0 100%, 0 0, from(#cacaca),to(#e0e0e0));}
+#cover{display:none;position:absolute;left:0;top:0;z-index:8888;background-color:#000000;opacity:0.7;}
+#loading,#ok{display:none;position:absolute;z-index:9999;width:180px;padding:36px 0 26px 0;color:#ffffff;font-size:16px;text-align:center;border-radius:6px;}
+#loading{background-color:#2e2e2e;}
+#ok{background-color:#656564;}
+#loading img{width:60px;height:60px;margin-bottom:20px;}
+#ok img{width:119px;height:90px;margin-bottom:20px;}
+#guide{display:none;position:absolute;right:18px;top:5px;z-index:9999;}
+#guide img{width:260px;height:180px;}
+#toast{display:none;position:absolute;padding:8px 25px;margin-left:5px;margin-right:10px;color:#ffffff;font-size:16px;background-color: rgba(30,30,30,0.9);box-shadow:0 0 5px #666666;z-index:9999;}
+@media ( min-width:480px){#mess_share {display: none;}}

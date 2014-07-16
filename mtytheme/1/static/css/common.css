@@ -1,0 +1,302 @@
+/**
+ * -----头部css样式
+   .title自定义  标题
+   .back自定义 返回
+   .select 自定义 筛选
+ */
+
+.page-head header{
+	width:100%;
+   background: #123553 url(../img/banner.jpg) no-repeat right top; 
+	overflow: hidden;
+}
+
+.page-head .title{
+   width: 40%;
+   float:left;
+   margin-left: auto;
+   margin-right: auto;
+   color:#FFFFFF;
+	
+}
+.page-head .title p{
+   padding-top:6px;
+   text-align:center;
+   font-size: 14px;
+}
+
+.page-head .back{
+   margin-top:6px;
+   padding-left:6px;
+    width:25%;
+    float:left;  
+}
+
+.page-head .back button{
+	max-width:50px;
+	max-height:23px;
+	color: #143C77;
+    background-color: #fff;
+    border:none;
+    border:1px solid #ccc;
+	font-size:14px;
+}
+
+.page-head .select{
+    display:block;
+    width:25%;
+    margin-right:8px;
+    margin-top:6px;
+    float:left;
+    border:none;
+     
+}
+
+.page-head .select select{
+	max-width:110px;
+	max-height:23px;
+	color: #143C77;
+    background-color: #fff;
+    border:none;
+	 border:1px solid #ccc;
+	font-size:14px;
+}
+.page-head .select select option{
+  padding-top:15px;    
+
+}
+
+
+/**
+ * 容器定义媒体对象
+ */
+
+.container{
+	margin-top:2px;
+	backgroud:#D4E5F8;
+
+}
+
+.container .row{
+	margin-top:2px;
+ 	padding-top:0px;
+}
+
+.container .row .thumbnail{
+	padding:0px;
+	border:none;
+	border-bottom:1px solid #ccc;
+}
+
+.container .row .thumbnail .caption{
+	padding:0px;
+	
+}
+.container .row h4{
+	text-align: center;
+}
+
+.container .row .button{
+	padding-top:20px;
+}
+
+#pics{
+	widht:100%;
+	height:320px;
+}
+
+.container .row .thumbnail .caption img{
+	max-height: 300px;
+	max-width:250px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	
+}
+
+.container a.media{
+	text-decoration:none;
+	color:black;
+	display:block;
+	border-bottom: 1px solid #ddd;
+	padding: 2px 2px;
+
+	
+}
+.container a.media img{
+	width :100px;
+	max-height:200px;
+	-webkit-border-radius:20px;
+	border-radius:20px
+}
+.container a.media .media-body{
+	margin-top:10px;
+}
+
+.container a.media .media-body h5 span{
+	color:orange;
+	font-weight:bold;
+}
+.container a.media:hover{
+	background: #123553; 
+	color:white;
+	overflow: hidden;
+}
+
+.container a.media .media-body p{
+	margin-top:2px;
+	margin-bottom:0px;
+}
+
+.container a.media .media-body .txt{
+   text-indent: 2em
+}
+
+
+.container a.media .media-body p .red{
+	color:red;
+font-size:12px;
+}
+
+.container a.media .media-body p .left{
+	 text-align:center;
+}
+
+.container a.media .media-body p .green{
+	color:#47a447;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.container a.media .media-body .indent{
+	text-indent:27px;
+}
+
+.container .panel-default .panel-heading{
+	background-color:#000;	
+	color:white;
+}
+
+
+.container .panel-default .link a{
+   display:block;
+   text-align: left; 
+}
+
+
+.container .panel-default iframe{
+	height:220px;
+	width:100%;
+	border:0px;
+}
+
+/**
+ * 模态图片
+ */
+#picModal .modal-header{
+	border-bottom: none;
+	padding:6px;
+	height:45px;
+}
+
+#picModal .modal-header .close{
+	width:30px;
+	height:30px;
+	display: block;
+	opacity:1
+}
+
+#picModal .modal-body{
+	padding-top:0px;
+}
+
+#picModal .modal-body img{
+	width:100%;
+	height:100%;
+}
+
+
+
+/**
+ * 文章内容
+ */
+
+.content{
+    display:block;
+	margin:2px 10px 0px 10px;
+
+	border-bottom:1px solid #ddd;
+}
+.content .editor{
+	margin-bottom:10px;
+}
+
+.content h3{
+	font-size: 20px;
+}
+
+.content h3 span{
+	color:#1B85CC;
+   margin-bottom:4px;
+}
+
+
+/**
+ * table列表
+ */
+
+.page-table{
+	margin-left: 8px;
+	margin-right:8px;
+}
+.page-table .main_tr
+{
+	background-color:#0F0C0C;
+    color:white;
+}
+
+.page-table .main_tr th{
+	text-align:center;
+}
+
+.page-table td{
+	font-size:12px;
+	padding:2px;
+	text-align:center;
+	
+}
+
+.page-table .teacher a{
+	color:orange;
+}
+
+.page-table .week{
+	min-width:40px;
+}
+
+.max-img{
+	max-width:200px;
+	max-height:220px;
+	
+}
+
+
+
+/**
+ * 尾部版权信息
+ */
+.footer{
+    text-align: center;
+    margin: 5px 0;
+}
+.footer a{
+    font-size: 14px;
+	color: #ccc;
+	padding-bottom: 10px;
+	text-align: center;
+	display: block;
+	text-shadow: 0 1px 0 #fff;
+	font-family: Helvetica,Arial,sans-serif;
+	line-height: 15px;
+	text-decoration: none;
+}

@@ -1,0 +1,10 @@
+---
+会员中心:
+-
+  name: 个人资料
+  event: click
+  
+-
+  name: 会员卡
+  link: /user/${shop_id}  
+  

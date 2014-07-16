@@ -1,0 +1,11 @@
+-
+	name: 飞马健身
+	message_name: xxx
+	items:
+		- 
+			title: 飞马健身
+			thumb: ${theme_root}/messages/feima.jpeg
+		-
+			tiltle: 会所地址
+			thumb: ${theme_root}/xxx.jpeg
+			

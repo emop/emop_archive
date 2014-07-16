@@ -1,0 +1,37 @@
+store:
+	shop_title: 永琪美业（朝晖店）
+	province: 浙江省
+	city: 杭州
+	district: 下城区
+	location: 永琪美业（朝晖店）
+	address_info: 朝晖路161号(近中信银行)
+	mobile: (0571)85459581
+	officer: 小李
+	shop_hours: 08:00-23:00
+	status: 1
+	login_pass: yqzh
+	position_list: 1,3
+	service:
+		-
+			service_name: 精美染发
+			service_des: 改变头发的颜色，展现青春的活力，这是一个非常值得尝试的服务哦。
+			service_minute : 90
+			price: 
+				-
+					position_id: 1
+					price: 30
+				-
+					position_id: 3
+					price: 20
+			
+		-
+			service_name: 洗、剪、吹
+			service_des: 常规理发
+			service_minute : 30
+			price: 
+				-
+					position_id: 1
+					price: 30
+				-
+					position_id: 3
+					price: 20

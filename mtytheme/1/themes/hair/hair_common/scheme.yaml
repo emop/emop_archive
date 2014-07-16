@@ -1,0 +1,54 @@
+---
+scheme_id: hair_common
+name: 美发通用方案
+keyword: 美发 预约
+wx_level: 认证订阅号，服务号
+level: 一般美发店铺
+description: 本方案实用于一般的美发店铺，主要功能为客户的预约，客户分享造型，制定造型预约等功能，加强造型师与客户的互动，长久留住客户。
+logo: thumb/common_logo.png
+
+scheme_detail:
+    scheme_desc: 美发通用方案，简洁轻便，简单实用，是一个不需要花费太多精力就可以很好的运作的，简易方案。
+    img_list:
+    	-
+    		img_desc: 第一张图片
+    		img: thumb/12.jpg
+    	-
+    		img_desc: 第二张图片
+    		img: thumb/2.jpg
+    	-
+    		img_desc: 第三张图片
+    		img: thumb/appoint1.jpg
+    	-
+    		img_desc: 第四张图片
+    		img: thumb/emoplyee.png
+
+    scheme_require:
+    	-
+    		title: 服务号
+    		desc: 需要服务号，才能开启菜单功能
+    	-
+    		title: 配置微信账号
+    		desc: 将微信公众账号，成功配置到猫头鹰平台
+    scheme_setting:
+    	-
+    		title: 配置平台工具
+    		desc: 用报名工具实现加盟报名,用刮刮卡做抽奖活动
+    	-
+    		title: 配置素材页面
+    		desc: 用于展示公司简介，或其他介绍
+    	-
+    		title: 配置图文素材
+    		desc: 用于也用户交流的模块
+    	-
+    		title: 配置微信菜单
+    		desc: 使用户操作起来更简单、方便
+    	-
+    		title: 配置关键字回复
+    		desc: 用于收到用户消息时，响应方式，可使用图文素材
+    	-
+    		title: 配置关注回复
+    		desc: 用于当用户关注时，第一时间与用户交互
+    	-
+    		title: 配置微门户
+    		desc: 微网站的入口，整个平台的入口都可以放到这里来

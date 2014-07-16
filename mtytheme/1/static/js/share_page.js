@@ -1,0 +1,72 @@
+var F=function(id){return document.getElementById(id);};
+Element.prototype.show=function(){this.style.display="block";};
+Element.prototype.hide=function(){this.style.display="none";};
+Element.prototype.center=function(top){
+   this.style.left=(_system._scroll().x+_system._zero(_system._client().bw-this.offsetWidth)/2)+"px";
+   this.style.top=(top?top:(_system._scroll().y+_system._zero(_system._client().bh-this.offsetHeight)/2))+"px";
+};
+var _system={
+   _client:function(){
+      return {w:document.documentElement.scrollWidth,h:document.documentElement.scrollHeight,bw:document.documentElement.clientWidth,bh:document.documentElement.clientHeight};
+   },
+   _scroll:function(){
+      return {x:document.documentElement.scrollLeft?document.documentElement.scrollLeft:document.body.scrollLeft,y:document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop};
+   },
+   _cover:function(show){
+      if(show){
+	     F("cover").show();
+	     F("cover").style.width=(this._client().bw>this._client().w?this._client().bw:this._client().w)+"px";
+	     F("cover").style.height=(this._client().bh>this._client().h?this._client().bh:this._client().h)+"px";
+	  }else{
+	     F("cover").hide();
+	  }
+   },
+   _loading:function(text){
+      if(text){
+         this._cover(true);
+         F("loading").show();
+		 F("loading_text").innerHTML=text;
+		 F("loading").center();
+		 window.onresize=function(){_system._cover(true);F("loading").center();};
+	  }else{
+         this._cover(false);
+         F("loading").hide();
+		 window.onresize=null;
+	  }
+   },
+   _toast:function(text,fun){
+      F("toast").show();
+      F("toast").innerHTML=text;
+      F("toast").center();
+      setTimeout(function(){
+	     F("toast").hide();
+		 if(fun){(fun)();}
+      },3*1000);
+   },
+   _ok:function(text,fun){
+      F("ok").show();
+      F("ok_text").innerHTML=text;
+      F("ok").center();
+	  window.onresize=function(){F("ok").center();};
+      setTimeout(function(){
+		 window.onresize=null;
+	     F("ok").hide();
+         (fun)();
+      },2*1000);
+   },
+   _guide:function(click){
+      this._cover(true);
+      F("guide").show();
+	  F("guide").style.top=(_system._scroll().y+5)+"px";
+      window.onresize=function(){_system._cover(true);F("guide").style.top=(_system._scroll().y+5)+"px";};
+	  if(click){F("cover").onclick=function(){
+         _system._cover();
+         F("guide").hide();
+		 F("cover").onclick=null;
+		 window.onresize=null;
+	  };}
+   },
+   _zero:function(n){
+	      return n<0?0:n;
+	   },
+};

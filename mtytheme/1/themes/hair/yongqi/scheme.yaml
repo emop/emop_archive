@@ -1,0 +1,55 @@
+---
+scheme_id: yongqi
+name: 永琪定制方案
+keyword: 美发 预约
+wx_level: 认证订阅号，服务号
+level: 大型连锁店
+description: 永琪美业定制的方案，包含微信预约，我型我秀，多门店支持。用户在微信预约后获得积分奖励，使用累计的积分，可以换取活动奖品。用户可以分享造型设计到朋友圈，提升设计师的人气。
+logo: thumb/hair_logo.png
+
+scheme_detail:
+    scheme_desc: 永琪美业方案，实用于各种连锁门店的管理，用户的管理。使用方便，快捷！
+    img_list:
+    	-
+    		img_desc: 第一张图片
+    		img: thumb/12.jpg
+    	-
+    		img_desc: 第二张图片
+    		img: thumb/2.jpg
+    	-
+    		img_desc: 第三张图片
+    		img: thumb/yongqi_admin.jpg
+    	-
+    		img_desc: 第四张图片
+    		img: thumb/yongqi_front.jpg
+
+    scheme_require:
+    	-
+    		title: 服务号
+    		desc: 需要服务号，才能开启菜单功能
+    	-
+    		title: 配置微信账号
+    		desc: 将微信公众账号，成功配置到猫头鹰平台
+    scheme_setting:
+    	-
+    		title: 配置平台工具
+    		desc: 安装核心工具门店管理，并安装会员卡工具
+    	-
+    		title: 配置素材页面
+    		desc: 用于展示帮助信息，也可以用于展示公司信息等
+    	-
+    		title: 配置图文素材
+    		desc: 用于也用户交流的模块
+    	-
+    		title: 配置微信菜单
+    		desc: 使用户操作起来更简单、方便
+    	-
+    		title: 配置关键字回复
+    		desc: 用于收到用户消息时，响应方式，可使用图文素材
+    	-
+    		title: 配置关注回复
+    		desc: 用于当用户关注时，第一时间与用户交互
+    	-
+    		title: 配置微门户
+    		desc: 微网站的入口，整个平台的入口都可以放到这里来
+	 

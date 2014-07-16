@@ -1,0 +1,18 @@
+-
+ name: 预约服务
+ type: view
+ key_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/appoint/"
+ view_order: 1
+
+-
+ name: 价格表
+ type: view
+ key_url: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/price_list/"
+ view_order: 2
+ 	
+-
+ name: 会员卡
+ type: view
+ key_url: http://m.mty5.com/appface/u/card/receive_card?shop_id=
+ view_order: 3
+	

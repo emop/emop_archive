@@ -1,0 +1,28 @@
+
+.alert-error {
+color: #b94a48;
+background-color: #f2dede;
+border-color: #eed3d7;
+}
+
+div.panel-heading.crm_nav_head, div.crm_nav_head{
+	background-color:#E5549F;
+	color:white;
+}
+
+div.panel-heading.crm_item_head{
+	background-color:#000;	
+	color:white;
+}
+
+.crm_nav_title{
+	text-align:center;
+	font-size:18px;
+}
+
+.crm_nav_head a.btn-default {
+	background-color: #dd196d;
+	color:white;
+	padding:4px;
+}
+

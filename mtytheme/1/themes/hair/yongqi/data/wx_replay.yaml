@@ -1,0 +1,67 @@
+管理:
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 美发管理
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_27/wxmenu_4001136_114217.png
+		link: "http://www.mty5.com/m/{$app_shop_id}"
+	
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 我的预约
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_095820.png
+		link: "http://s{$app_shop_id}.3g.{$emopcrm_url}weixin/appoint"
+		
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 设计师作品展示
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_100151.png
+		link: "http://s{$app_shop_id}.3g.{$emopcrm_url}weixin/emoplyee_up_imgs"
+		
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 员工注册
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_100349.png
+		link: "http://s{$app_shop_id}.3g.{$emopcrm_url}weixin/add_emoplyee"
+我的服务:
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 我的服务中心
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_27/wxmenu_4001136_114217.png
+		link: http://www.mty5.com/m/{$app_shop_id}
+		
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 我要预约服务
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_100726.png
+		link: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/appoint/{$app_shop_id}"
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 我想看看潮流造型
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_100755.png
+		link: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/trend_show/{$app_shop_id}"
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 我的会员卡
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_100814.png
+		link: http://m.mty5.com/appface/u/card/receive_card?shop_id={$app_shop_id}
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 预约记录
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_19/wxmenu_1118_183608.png
+		link: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/my_appoint/{$app_shop_id}"
+	-
+		menu_type: source
+		reply_type: pic_text
+		description: 我的服务价格
+		cover: http://mobile01.b0.upaiyun.com/emop_sell/03_14/wxmenu_1118_100923.png
+		link: "http://s{$app_shop_id}.3g.{$emopcrm_url}user/price_list/{$app_shop_id}"
+		
